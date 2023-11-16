@@ -1,0 +1,271 @@
+html{
+    font-size: 30px;
+
+}
+
+
+*{
+    /* overflow-x: hidden; */
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: #fbfcfe;
+}
+/* .head1{
+    display: flex;
+    justify-content:space-between;
+} */
+.img-conteiner {
+    /* float: right; */
+    width: 1150px;
+    height: 750px;
+    border-radius: 200px;
+    transform: rotate(30deg);
+    overflow: hidden;
+    margin-right: -180px;
+    margin-top: -350px;
+    position: absolute;
+    right: 0;
+
+}
+.head1{
+    position: relative;
+}
+.img1 {
+    width: 1150px;
+    height: 950px;
+    transform: rotate(-30deg);
+ 
+}
+.img2{
+    width: 150px;
+    margin: 20px 170px;
+}
+nav .list1 ul{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 90px;
+    margin-right: 50px;
+    justify-content: right;
+    font-size: 20px;
+    margin-top: -70px;
+    
+}
+.title1 h1{
+    margin: 10px;
+
+}
+
+.title1{
+    margin: 170px;
+}
+.title1 .butten1{
+background-color: #c1187b;
+border: 1px solid red;
+border-radius: 20px;
+padding: 10px 60px;
+color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.undera{
+    border-bottom: 4px solid #c1187b;
+}
+.title1 p{
+    margin: 10px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+.p1{
+    width: 800px;
+    height: 400px;
+    margin: 150px 80px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 4px solid red; */
+    
+}
+.p1 .img3{
+    width: 300px;
+    height: 90%;
+}
+.p1 .para1{
+    width: 400px;
+    
+}
+.p1 p{
+    font-size: 20px;
+    color: #909193;
+}
+.p1 h4{
+    margin: 25px;
+    margin-left: 0px;
+}
+.pp{
+    position: relative;
+    width: 200px;
+    margin: 25px;
+}
+.pp .img4{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 11em;
+    align-items: center;
+    
+
+}
+h3{
+    color: #565656;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom:10px ;
+}
+.pp .img4 .simg{
+    width:150px;
+    
+}
+.pp .img4 .simg img{
+    width: 150px;
+    outline: 20px solid white;
+}
+
+
+.pp .img4 input{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    background-color: #bb197a;
+    margin-top: -25px;
+}
+.pp .img4 .simg span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #909193;
+}
+.pp .img4 .simg .simg1{
+    color: #cc4f96;
+}
+.title2{
+    width: 600px;
+    margin: 0 auto;
+}
+.title2 .par{
+text-align: center;
+color:#878484;
+ font-size: 15px;
+}
+.title2 .items{
+    width: 600px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+
+}
+.title2 .items .it{
+    background-color: #c5c7c9;
+    border-radius: 20px;
+}
+.title2 .items .it p{
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+}
+.title2 .items .it h5{
+    font-size: 20px;
+    text-align: center;
+}
+.title2 .items .it img{
+    display: block;
+    width: 30px;
+    margin: 10px auto;
+}
+.title2 .par{
+    font-size: 15px;
+    margin: 0px 0px 20px;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+    margin: 50px auto;
+    border: 4px salid black;
+}
+.sec .img6
+{
+    position: relative;
+}
+.sec .img6 .img6-1{
+   width: 220px;
+   height: 250px;
+   position: absolute;
+    top: 0;
+    right: 0;
+}
+.sec .img6 .img6-2{
+    width: 170px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    outline: 15px solid white;
+ }
+ .sec .para2{
+    width: 210px;
+
+     }
+     .sec .para2 h5{
+        font-size: 25px;
+        font-weight: lighter;
+        
+         }
+ .sec .para2 p{
+font-size: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+ .sec .para2 input{
+    background-color: #bb197a;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border: none;
+    color: white;
+ }
+ .sec .img6{
+    width: 300px;
+    height: 300px;
+    
+ }
+ .listn{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    padding: 20px;
+    text-wrap: nowrap;
+    margin-left:-30px ;
+    font-size: 20px;
+ }
